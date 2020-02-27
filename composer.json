@@ -1,0 +1,21 @@
+{
+    "name": "alcoy/repositorify",
+    "description": "Base Repository",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Corentin Allohoumbo",
+            "email": "corentinalcoy@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "Alcoy\\Repository\\":"src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
