@@ -2,7 +2,7 @@
 
 Base function for all my laravel project
 
-# Install 
+# Installation 
 Add this to your `composer.json` before the **require** section 
 ```json
 
@@ -20,3 +20,25 @@ Modify the `require` section and add this
     },
 ```
 Now you can run `composer install`
+
+# Usage
+Create your UserRepository.php and add this
+
+```php
+<?php
+
+
+namespace App;
+
+
+use Alcoy\Repository\BaseRepository;
+
+class UserRepository extends BaseRepository
+{
+    /**
+    * @type Model
+    */
+    protected $model = "App\User"  ;
+}
+
+```
