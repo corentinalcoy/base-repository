@@ -16,7 +16,7 @@ Add this to your `composer.json` before the **require** section
 Modify the `require` section and add this
 ```json
 "require": {
-        ......
         "alcoy/repositorify": "*"
     },
 ```
+Now you can run `composer install`
